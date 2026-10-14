@@ -11,6 +11,14 @@ public class Dog {
 	public boolean neuter;
 	
 	// [ 생성자부 ]
+	public Dog() {}
+	public Dog(String name, String species, int age, char gender, boolean neuter) {
+		this.name = name;
+		this.species = species;
+		this.age = age;
+		this.gender = gender;
+		this.neuter = neuter;
+	}
 	
 	// [ 메소드부 ] => Dog가 수행할 수 있는 행위(기능)
 	public void walk() { // 걸을 때 나의 이름을 좀 말하면서 걷고 싶다. 

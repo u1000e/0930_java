@@ -26,6 +26,28 @@ public class ComputerView {
 		
 		// 오늘의 숙제 : 나만의 클래스 3개 만들기 => 필드 접근제한자 private => getter/setter 까지 구현하기
 		
+		System.out.print("가격이 얼마인가요 > ");
+		int price = sc.nextInt();
+		sc.nextLine();
+		c.setPrice(price);
+		
+		System.out.print("상점명은 무엇인가요 > ");
+		String storeName = sc.nextLine();
+		c.setStoreName(storeName);
+		
+		System.out.print("결제 수단은 무엇인가요 > ");
+		String payment = sc.nextLine();
+		c.setPayment(payment);
+		
+		System.out.println("==============================");
+		String info = c.info();
+		System.out.println(info);
+		
+		
+		
+		
+		
+		
 	}
 	
 	
