@@ -1,5 +1,8 @@
 package com.kh.chap01;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Run {
 
 	public static void main(String[] args) {
@@ -55,7 +58,28 @@ public class Run {
 			// 프로그램 실행시점에 동적으로 자식클래스의 오버라이딩 된 메소드를 호출함
 		}
 		
-
+		
+		
+		
+		
+		
+		
+		System.out.println("\n\n\n\n\n\n\n\n");
+		
+		List<Puma> cats = new ArrayList();
+		cats.add(new Puma());
+		cats.forEach(c -> System.out.println(c));
+		List<Tiger> tigers = new ArrayList();
+		tigers.add(new Tiger());
+		tigers.forEach(t -> System.out.println(t));
+		
+		List<Object> objs = new ArrayList();
+		objs.add(new Puma());
+		objs.add(new Tiger());
+		objs.forEach(o -> System.out.println(o));
+		
+		
+		
 	}
 
 }
