@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+	<comment>2026-10-22 만든이 뭔파일인지</comment>
+	
+	<entry key="List">
+		ArrayList
+	</entry>
+	
+	<entry key="Map">
+		HashMap
+	</entry>
+		
+</properties>
